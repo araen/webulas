@@ -1,0 +1,1 @@
+BASE_URL = "https://ulas.surakarta.go.id"
