@@ -28,6 +28,8 @@ class Scrapper :
 
         # Store the information in a pandas dataframe
         df = pd.DataFrame(aspirations, columns=['Title', 'Link'])
+        
+        #return df
 
         for index, row in df.iterrows():
             if index == 0 : 
